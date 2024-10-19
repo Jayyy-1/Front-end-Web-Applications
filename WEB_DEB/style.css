@@ -1,0 +1,31 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  .bg-img {
+    background-image: url('https://scontent.fmnl33-2.fna.fbcdn.net/v/t1.15752-9/461520321_533837452601160_3178403365192108415_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeH0Sq4XrZzOvMFR_Jzy-RBP-bidXJfPQmX5uJ1cl89CZYQZ5fBnsbqZDj1LcqN-JL1LjCWOnzsQBm5C5thNYvhj&_nc_ohc=IBTSK6-spAYQ7kNvgF0_9Vk&_nc_zt=23&_nc_ht=scontent.fmnl33-2.fna&_nc_gid=AiHPR2ys4JMN49H6ViWvZyz&oh=03_Q7cD1QFCi2KLDKZRsdBrPzpjHTQaRf5rqzaMVW2ppegc0sSI1A&oe=6739679C');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  .bg-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(36, 34, 34, 0.6); 
+  }
+  header {
+    position: relative;
+    z-index: 2;
+  }
+  .text-overlay {
+    color: white;
+    position: relative;
+    z-index: 3;
+  }
+  .navbar-brand {
+    color: rgba(251, 246, 253, 0.555) !important;
+  }
